@@ -38,7 +38,7 @@ function route(req, res) {
         }
     } else {    // 读静态资源
         pathname = '/static' + pathname;    // 指到静态资源目录
-        handler.getFile(pathname, res);
+        handler.getStatic(pathname, res);
     }
 }
 
