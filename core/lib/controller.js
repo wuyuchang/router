@@ -7,7 +7,6 @@ var handler = require('./handler.js');
 module.exports = {
     '/reveal': function (filename, res) {
         'use strict';
-        
         handler.getView(filename, res);
     },
     '/test': function (filename, res) {
