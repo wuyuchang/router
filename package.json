@@ -1,0 +1,23 @@
+{
+  "name": "sniffer",
+  "version": "1.0.0",
+  "description": "'sniffer background data'",
+  "main": "server_listener.js",
+  "dependencies": {
+    "base64-url": "^1.2.1",
+    "mime-types": "^2.1.6",
+    "ejs": "^2.3.4",
+    "request-ip": "^1.1.4",
+    "tracer": "^0.8.0",
+    "sqlite3": "^3.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sniffer"
+  ],
+  "author": "lh",
+  "license": "ISC"
+}
